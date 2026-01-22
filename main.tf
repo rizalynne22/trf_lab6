@@ -3,7 +3,7 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket         = "jenkins-state-rizalynne"   
+    bucket         = "jenkins-state-rizalynne2"   
     key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
